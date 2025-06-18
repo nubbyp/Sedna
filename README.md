@@ -16,6 +16,7 @@ This project is built using Maven. It is for a job application to Sedna.
 * [JSoup](https://jsoup.org/) (for HTML parsing)
 
 ## 📦 Project Structure
+```
 Sedna/
 ├── src/
 │ ├── main/
@@ -23,7 +24,7 @@ Sedna/
 │ │ │ └── SubDomainCrawler
 ├── pom.xml
 └── README.md
-
+```
 
 ## ⚙️ Usage
 
@@ -39,7 +40,7 @@ Sedna/
    
 3. **Run the crawler**
    ```bash
-   java -jar target/SubDomainCrawler-1.0.jar SubDomainCrawler
+   java -jar target/SubDomainCrawler-1.0-SNAPSHOT.jar SubDomainCrawler
 
 
 ## 📄 Output
